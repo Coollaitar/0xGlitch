@@ -2,7 +2,7 @@
 
 ## Website (Frontend Development)
 
-<img src="blob:https://web.telegram.org/b532963d-62c3-44c1-b6a6-dd8bc4c49bb7" width="1000" height="550">
+<img src="https://web.telegram.org/b532963d-62c3-44c1-b6a6-dd8bc4c49bb7" width="1000" height="550">
 
 
 ## Smart Contract (Solidity Development)
