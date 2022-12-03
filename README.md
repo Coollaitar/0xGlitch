@@ -2,8 +2,7 @@
 
 ## Website (Frontend Development)
 
-<img src="file:///C:/Users/aadit/Downloads/photo_6077852613807813935_y.jpg" width="500" height="500">
-
+### **For Images : [Click Here]()**
 
 
 
