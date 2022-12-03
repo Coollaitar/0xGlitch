@@ -2,12 +2,12 @@
 
 ## Website (Frontend Development)
 
-### **For Images : [Click Here]()**
+### **For Images : [Click Here](https://github.com/Coollaitar/0xGlitch/blob/main/Website%20Image/photo_6077852613807813935_y.jpg)**
 
 
 
 ## **Frameworks used : React**
-## **Languages used : HTML, CSS, Javascipt**
+## **Languages used : HTML, CSS, Javascript**
 
 
 ## **Smart Contract (Solidity Development)**
