@@ -6,9 +6,9 @@
 
 
 
-## **Frameworks used : React**
-## **Languages used : HTML, CSS, Javascript**
-
+### **Frameworks used : React**
+### **Languages used : HTML, CSS, Javascript**
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Smart Contract (Solidity Development)**
 
