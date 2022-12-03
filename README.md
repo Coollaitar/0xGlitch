@@ -2,10 +2,16 @@
 
 ## Website (Frontend Development)
 
-<img src="blob:https://web.telegram.org/b532963d-62c3-44c1-b6a6-dd8bc4c49bb7" width="1000" height="550">
+<img src="https://mail.google.com/mail/u/0?ui=2&ik=e102735ac0&attid=0.1&permmsgid=msg-f:1751222691814510611&th=184d97c284351013&view=fimg&realattid=f_lb8c2xl70&disp=thd&attbid=ANGjdJ_uZQo5Xo6nBxCNQIDGpCAhkoEWpMinGFJ3sP1r2ARVjYaZKRMzx3o5pvrXvjRFrGex1-L_iQuHzRkB-tK8ZZnBNoECA9DZpuSw4HiZtasOTTAMYUbVMaMOFsU&ats=2524608000000&sz=w1920-h892" width="1000" height="550">
 
 
-## Smart Contract (Solidity Development)
+
+
+## **Frameworks used : React**
+## **Languages used : HTML, CSS, Javascipt**
+
+
+## **Smart Contract (Solidity Development)**
 
 ### **1. Import and Inherit ERC721, Ownable Contract and Base64**
 
