@@ -1,5 +1,10 @@
 # 0xGlitch Documentation <img src="https://media.tenor.com/UTxZPwKlNNIAAAAi/ethereum-ethereum-crypto.gif" width="60" height="60" />
 
+## Website (Frontend Development)
+
+<img src="blob:https://web.telegram.org/b532963d-62c3-44c1-b6a6-dd8bc4c49bb7" width="1000" height="550">
+
+
 ## Smart Contract (Solidity Development)
 
 ### **1. Import and Inherit ERC721, Ownable Contract and Base64**
