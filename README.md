@@ -64,7 +64,7 @@ Now Deploy the Contract and Interact with the Function
  />
 ```
 ### Now put your address as user address and the address whom you want to send message as support address
-### For API key please contact [PushProtocol]() 
+### For API key please contact [PushProtocol](https://discord.gg/pushprotocol) 
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
