@@ -9,6 +9,65 @@
 ### **Frameworks used : React**
 ### **Languages used : HTML, CSS, Javascript**
 -------------------------------------------------------------------------------------------------------------------------------------
+## Protocols Used
+
+### 1. Polgon : We have used Polygon Mumbai Testnet to deploy the contract as well as to interact with it
+### 2. Push Protocol : We have used Push Protocol for getting Notifications and also for chat Implementation
+
+## Notification
+
+### Step 1 : Create a push channel and the follow the procedures for successful creation
+### Step 2 : Here we have used sending Notifications via Smart Contract. 
+### Step 3 : Import the Push Comm Interface and Send Notification Function giving the channel owner address as a Parameter.
+```.sol
+// PUSH Comm Contract Interface
+interface IPUSHCommInterface {
+    function sendNotification(address _channel, address _recipient, bytes calldata _identity) external;
+}
+```
+### Now add the following code in the Function you want to send the Nofitication 
+```.sol
+IPUSHCommInterface(EPNS_COMM_CONTRACT_ADDRESS_FOR_SPECIFIC_BLOCKCHAIN).sendNotification(
+    YOUR_CHANNEL_ADDRESS, // from channel - recommended to set channel via dApp and put it's value -> then once contract is deployed, go back and add the contract address as delegate for your channel
+    to, // to recipient, put address(this) in case you want Broadcast or Subset. For Targetted put the address to which you want to send
+    bytes(
+        string(
+            // We are passing identity here: https://docs.epns.io/developers/developer-guides/sending-notifications/advanced/notification-payload-types/identity/payload-identity-implementations
+            abi.encodePacked(
+                "0", // this is notification identity: https://docs.epns.io/developers/developer-guides/sending-notifications/advanced/notification-payload-types/identity/payload-identity-implementations
+                "+", // segregator
+                "3", // this is payload type: https://docs.epns.io/developers/developer-guides/sending-notifications/advanced/notification-payload-types/payload (1, 3 or 4) = (Broadcast, targetted or subset)
+                "+", // segregator
+                "Title", // this is notificaiton title
+                "+", // segregator
+                "Body" // notification body
+            )
+        )
+    )
+);
+
+```
+Now Deploy the Contract and Interact with the Function
+
+### Step 4 : Now visit the [Push Dapp](https://staging.push.org/#/channels) and check your Inbox
+
+## 2. Integrating Push Chat
+
+### Step 1 : Install @pushprotocol/uiweb and import in `app.js`
+### Step 2 : Now in the function paste the following Code 
+```.sol
+<Chat
+   account={"0x60E7c5F82744fEEcDE75B9771F0235CA8b9E4Bf0"}//user address
+   supportAddress="0x6c32a3f4e13732E6b482Faeb52e78e2780734cBe" //support address
+   apiKey="Zc423i0lYv.Cq3NIUgTpxbBhREUDFz79oTjEjqhc5FzhbQ0Oe8kXNaEyv20LehF6Xfgmog78j1H"
+    env="staging"
+ />
+```
+### Now put your address as user address and the address whom you want to send message as support address
+### For API key please contact [PushProtocol]() 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Smart Contract (Solidity Development)**
 
