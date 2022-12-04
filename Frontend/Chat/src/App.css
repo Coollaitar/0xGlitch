@@ -1,0 +1,25 @@
+.navbar-brand {
+    display: inline;
+    font-size: 2rem;
+  }
+  .navbar-brand-x {
+    display: inline;
+    color: #FF008E;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .body {
+    background-color: #FF008E;
+    height: 750px;
+  }
+  
+  .btn-1 {
+    background-color: black;
+    color: white;
+    width: 60px;
+    border-radius: 5px;
+    position: relative;
+    left: 700px;
+    top: 500px;
+  }
