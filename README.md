@@ -4,7 +4,7 @@
 
 ### **For Images : [Click Here](https://github.com/Coollaitar/0xGlitch/blob/main/Website%20Image/photo_6077852613807813935_y.jpg)**
 
-
+<img src="https://github.com/Coollaitar/0xGlitch/blob/main/Website%20Image/photo_6077852613807813935_y.jpg" width="60" height="60" />
 
 ### **Frameworks used : React**
 ### **Languages used : HTML, CSS, Javascript**
