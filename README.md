@@ -23,17 +23,19 @@
 -------------------------------------------------------------------------------------------------------------------------------------
 - Ownable Contract have some functions that can be only accessed by Owner and it has `functions` like onlyOwner, CheckBalance, etc.
 -------------------------------------------------------------------------------------------------------------------------------------
-- Base64 Contract is used to **convert** SVG to String Image.
+- Base64 Contract is used to **encode** or **transform** `bytes32` data into Base64 String representation.
 -------------------------------------------------------------------------------------------------------------------------------------
 
 ### **2. Functions**
 
 ### ✅ For Code : [Code]()
 
-- Created a Constuctor which has 2 arguements and have fixed passed name ```SVG NFT, svgNFT```
+- Created a Constuctor which has 2 arguements and have fixed passed name ```Shop Name, Product```
 -------------------------------------------------------------------------------------------------------------------------------------
 ### 1. `create()` Function which will create an NFT(Bill) which will be later sent to Customer as an Identity or Proof of *Warranty* or *Expiry*. Then we are storing imageURI in a variable and then later passing it into `_setTokenURI()` to set the token with particular URI.
     
 ### 2. `svgToImageURI()` Function returns Encoded ImageURI by using `abi.encodePacked()` Base64 Contract.
 
-### 3. `formatTokenURI`
+### 3. `formatTokenURI()` Function takes an arguement of ImageURI and encodes the Json File having the SVG as Image attribute and returns the encoded Json File which is then passed to _setTokenURI along with tokenCounter.
+
+### 4. `safeTransferFrom()` Function of `ERC721` is used to Transfer NFT(Bill) from Owner to Customer `(From => To (address))` and after that Customer will recieve Notification as Bill Generated Successfully using Push Protocol. 
